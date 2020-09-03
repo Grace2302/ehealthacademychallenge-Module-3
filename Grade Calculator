@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+     <head> 
+        <meta charset="utf-8">
+        <title>Challenge 2:Grade Calculator</title>
+     </head>
+
+     <body>
+        <script> var Grade Score = prompt("Whats Your Grade Score");
+    if (score >= 70; score = 100){
+        alert("Your Grade Is A");
+        document.write("Excellent");
+        } 
+    else if (score >= 50; score <= 60{ 
+        alert("Your Grade Is B");
+        document.write("Very Good); 
+        } 
+    else if (score >= 0; score <= 40){ 
+        alert("Your Grade Is F"); 
+        document.write("Fail");
+        } 
+        </script>
+     </body> 
+
+</html>
