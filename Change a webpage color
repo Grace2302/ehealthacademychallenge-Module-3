@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Challenge three: Change a Webpage Color</title>
+   </head>
+
+  <body> 
+    <script> 
+     function changeColor(blue){
+      alert("body")
+style.backgroundColor = "blue";
+     } 
+    </script>
+ <buttononeclick="changeColor()">Click me</button>
+  </body>
+
+</html>
