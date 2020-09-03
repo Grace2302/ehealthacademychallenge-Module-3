@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <meta charset="utf-8">
+      <title> First Challenge:Create and Display Variable</title>
+   </head> 
+
+   <body> 
+      <script> 
+      var username = prompt('What is your name?');
+      document.write("<h1>HELLO" + "USERNAME</h1>") alert("HEllO" + "USERNAME!"); 
+      </script>
+   </body>
+
+ </html>
