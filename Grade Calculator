@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
      <head> 
@@ -6,24 +7,19 @@
      </head>
 
      <body>
-        <script>
+        <script> 
         var Grade Score = prompt("Whats Your Grade Score");
-        var score = prompt('Please Enter Your Score between 1-100\.');
-  
-  if (score >= 70; score = 100){
-        alert("Your Grade Is A");
-        document.write("Excellent");
+    if (score >= 70) && (score = 100){
+        document.write("<h1>Your Grade Is A - Excellent</h1>");
         } 
-  
-  else if (score >= 50; score <= 60{ 
-        alert("Your Grade Is B");
-        document.write("Very Good); 
+    else if (score >= 50) && (score <= 60){ 
+        document.write("<h1>Your Grade Is B - Very good</h1>"); 
         } 
-  
-  else if (score >= 0; score <= 40){ 
-        alert("Your Grade Is F"); 
-        document.write("Fail");
+    else if (score >= 0; score <= 40){ 
+        document.write("<h1>Your Grade Is F - Fail</h1>");
         } 
+    else { 
+        document.write('<h1>Please Enter Your Score between 0-100</h1>');
         </script>
      </body> 
 
