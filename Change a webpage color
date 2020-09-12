@@ -7,12 +7,11 @@
 
   <body> 
     <script> 
-     function changeColor(blue){
-      alert("body")
-style.backgroundColor = "blue";
+     function changeColor(){
+     document.body style.backgroundColor = "blue";
      } 
     </script>
- <buttononeclick="changeColor()">Click me</button>
+ <button onclick="changeColor()">Click me</button>
   </body>
 
 </html>
